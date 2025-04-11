@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/ControlQuantity" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/ControlQuantity" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/ControlQuantity" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="CheckQuantityForItem">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckQuantityForItem_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="CheckQuantityForItem">
+    <part name="parameters" element="tns:CheckQuantityForItem" />
+  </message>
+  <message name="CheckQuantityForItem_Result">
+    <part name="parameters" element="tns:CheckQuantityForItem_Result" />
+  </message>
+  <portType name="ControlQuantity_Port">
+    <operation name="CheckQuantityForItem">
+      <input name="CheckQuantityForItem" message="tns:CheckQuantityForItem" />
+      <output name="CheckQuantityForItem_Result" message="tns:CheckQuantityForItem_Result" />
+    </operation>
+  </portType>
+  <binding name="ControlQuantity_Binding" type="tns:ControlQuantity_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="CheckQuantityForItem">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ControlQuantity:CheckQuantityForItem" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckQuantityForItem">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckQuantityForItem_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ControlQuantity">
+    <port name="ControlQuantity_Port" binding="tns:ControlQuantity_Binding">
+      <address location="http://ibs-server002.is.com:7517/DeltaPharma2017Final/WS/Pas%20Migrimeve-Test/Codeunit/ControlQuantity" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RestWebApi.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RestWebApi_Service_Power_BI_Aged_Acc_Receivable_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ibssrvtest.is.com:15947/DegertAutoBC15/WS/SystemService</Value>
+    </Setting>
+    <Setting Name="RestWebApi_Api_System_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ibssrvtest.is.com:15947/DegertAutoBC15/WS/SystemService</Value>
+    </Setting>
+    <Setting Name="RestWebApi_SystemService_SystemService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.1.161:7517/DeltaPharma2017Final/WS/SystemService</Value>
+    </Setting>
+    <Setting Name="RestWebApi_Api_ControlQuantity_WebReference_ControlQuantity" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ibs-server002.is.com:7517/DeltaPharma2017Final/WS/Pas%20Migrimeve-Test/Codeunit/ControlQuantity</Value>
+    </Setting>
+    <Setting Name="RestWebApi_Api_SalesOrder_WebReference_SalesOrderApi_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ibs-server002.is.com:7517/DeltaPharma2017Final/WS/Pas%20Migrimeve-Test/Page/SalesOrderApi</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

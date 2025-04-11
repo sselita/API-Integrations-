@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWebApi", "RestWebApi\RestWebApi.csproj", "{060BDDB5-C149-4C06-AF2E-884CDC7A40A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3} = {8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Security", "..\Core\JWT.Security\JWT.Security.csproj", "{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060BDDB5-C149-4C06-AF2E-884CDC7A40A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060BDDB5-C149-4C06-AF2E-884CDC7A40A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060BDDB5-C149-4C06-AF2E-884CDC7A40A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060BDDB5-C149-4C06-AF2E-884CDC7A40A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B92981D-F794-4FB0-8C7D-DE0B1DA749D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F681DC5-9B03-4720-8A29-6632B4F59BC6}
+	EndGlobalSection
+EndGlobal

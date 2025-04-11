@@ -1,0 +1,61 @@
+{
+  "CompanyName": "CRONUS International Ltd_",
+  "NewServiceName": "WS",
+  //Data from Web Config
+  "OldServiceName": "WS",
+  //--
+  "SQLConnection": {
+    "DataSource": "192.168.1.161\\NAV2017",
+    "InitialCatalog": "DeltaPharma2017FinalObjects",
+    "IntegratedSecurity": "true",
+    "UserID": "",
+    "Password": ""
+  },
+  "TokenModel": {
+    "SigningKey": "VYY/M3pru3vXEIe3EnBlX/K9UsZ4gUPMSgOuXoWPPYjeDJEf68gZ55zvaFt4d4AVW/5ZieraSluB1w0JzFfMLozUOfl7KUcHEl78GaofJQkYpIBq0qFxAFluNdOLmrfKHyXqd0OyPCgsY6uqS5EZs4qEorC1wX4pYv8EW4VB3wo=",
+    "TokenIssuer": "Erjon Kuka",
+    "TokenAudience": "ekuka@infosoftgroup.com.al",
+    "TokenLifetimeInMinutes": "48000",
+    "ClientSettingsProvider.ServiceUri": "123456"
+  },
+  "FolderConfigModel": {
+    "LogFolderPath": "C:\\Users\\dmusabelliu\\Desktop\\Logs",
+    "FolderName": "Errors"
+
+  },
+
+  "Users": [
+    {
+      "UserId": 1,
+      "FullName": "Erjon Kuka",
+      "EmailAddress": "ekuka@infosoftgroup.com.al",
+      "Password": "123456"
+    },
+
+    {
+      "UserId": 2020,
+      "FullName": "IBS",
+      "EmailAddress": "ibs@test.al",
+      "Password": "123456"
+    },
+    {
+      "UserId": 3002,
+      "FullName": "Jack Donaghy",
+      "EmailAddress": "jack.donaghy@example.com",
+      "Password": "Password1"
+    },
+    {
+      "UserId": 3003,
+      "FullName": "Tracy Jordan",
+      "EmailAddress": "tracy.jordan@example.com",
+      "Password": "Password1"
+    }
+  ],
+  "ErpUser": {
+    "Username": "sselita",
+    "Domain": "is",
+    
+    "ErpPassword": "Ibs@2021"
+  }
+}
+
